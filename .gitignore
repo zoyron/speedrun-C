@@ -1,0 +1,49 @@
+# Object files
+*.o
+*.obj
+
+# Compiled binary files
+*.exe
+*.out
+*.app
+*.a
+*.so
+*.dylib
+
+# Build directories
+/build/
+/bin/
+/debug/
+/release/
+
+# CMake build files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Generated files
+*.log
+*.tmp
+*.swp
+
+# macOS system files
+.DS_Store
+
+# Backup files
+*~
+*.bak
+*.orig
+
+# VSCode or CLion (if ever used)
+.vscode/
+.idea/
+
+# Test and coverage
+*.gcno
+*.gcda
+*.gcov
+
+# Tags
+tags
+TAGS
