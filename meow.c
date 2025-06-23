@@ -2,8 +2,10 @@
 
 void meow() { printf("meow!\n"); }
 
-int main() { int i = 4; 
-while(i--){
+int main() {
+  int i = 4;
+  while (i--) {
     meow();
   }
+  return 0;
 }
