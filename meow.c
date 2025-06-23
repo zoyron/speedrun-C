@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-void meow() { printf("meow!\n"); }
-
+void meow(void);
 int main() {
   int i = 4;
   while (i--) {
@@ -9,3 +8,6 @@ int main() {
   }
   return 0;
 }
+
+
+void meow(void) { printf("meow!\n"); }
