@@ -21,7 +21,7 @@ int main() {
   printf("Enter a name that you want to find: ");
   scanf("%s", name);
   for (int i = 0; i < 3; i++) {
-    if (strcmp(people[0].name, name) == 0) {
+    if (strcmp(people[i].name, name) == 0) {
       printf("Found %s\n", people[i].numbers);
       return 0;
     }
