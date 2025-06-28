@@ -9,6 +9,7 @@ int main(void)
     printf("Address (p ki value): %p\n", p);
 
     // *p ko print karne se us address par rakhi value milegi
+  // *p ka matlab hai ki us address pe jao, aur waha jo value hai wo dikhao
     printf("Value at address (*p ki value): %d\n", *p);
 
     return 0;
